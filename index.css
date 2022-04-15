@@ -1,0 +1,266 @@
+*{
+    background-color: rgba(61, 8, 123, 1);
+  }
+  .logo{
+    top: 50px;
+    left: 124px;
+    position:relative;  
+  }
+ .hrone
+{
+    height: 30px;
+    width: 0px;
+    position: absolute;
+    right: 523px;
+    top: 149px;
+}
+.hrtwo{
+    height: 30px;
+    width: 0px;
+    position: absolute;
+    right: 523px;
+    top: 227px;
+}
+hr{
+padding:0px;
+} 
+.gmmsg{
+    width: 566px;
+height: 77px;
+border-radius: 10px;
+background: rgb(255, 255, 255, 0.23);
+text-align: left;
+font: normal normal 900 27px/75px Bauhaus Hv BT;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: white;
+position:relative;
+top: 115px;
+left: 124px;
+padding-left:15px;
+}
+.subcontainer2{
+    display:flex;
+    flex-direction: row;
+    margin-top: 148px;
+    margin-left: 128px;
+}
+.alarm{
+    width: 273px;
+height: 50px;
+background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+border-radius: 4px;
+/* border: none; */
+color: #FFFFFF;
+text-align: center;
+font: normal normal 600 24px/38px Manrope;
+}
+.timing{
+    width: 274px;
+    height: 100px;
+    background: rgb(255, 255, 255, 0.23);
+    color: #F25CFE;
+    font-family: manrope;
+    border-radius: 10px;
+    padding: 13px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.greting{
+    width: 536px;
+height: 118px;
+background: #FFFFFF;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+color: #8E53F0;
+text-transform: uppercase;
+font: normal normal 900 27px/40px Bauhaus Hv BT;
+text-align: center;
+padding-top: 40px;
+    box-sizing: border-box;
+}
+.box1
+{
+    width: 416px;
+    height: 130px;
+    position: absolute;
+    left: 780px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.71;
+    top: 80px;
+}
+.box2
+{
+    width: 379px;
+    height: 146px;
+    position: absolute;
+    right: 140px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.22;
+    top: 80px;
+    left: 798px;
+}
+.box3{
+    width: 473px;
+    height: 132px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    position: absolute;
+    top: 66px;
+    left: 752px;
+    display: flex;
+    justify-content: space-evenly;
+    color:#3D087B;
+}
+.time{
+    background-image: url(bg.svg);
+    width: 60px;
+    font-size: 17px;
+    text-align: center;
+    height: 95px;
+    margin-top: 19px;
+    border-radius: 6px;
+}
+.T{
+    background: transparent; 
+    text-align:center;
+     display:inline-block ;
+     padding-top:30px;
+}
+.am{
+    background-image: url(bgAM.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding-top: 31px;
+    box-sizing: border-box;
+}
+.h{
+    background: transparent;
+    margin:10px;   
+}
+h1.h.colon{
+    margin: 44px 0px 0px;
+}
+.subcontainer3{
+    display: flex;
+    flex-direction: column;
+    margin-top: -43%;
+    margin-left: 55%;
+}
+.container1{
+    width: 533px;
+    height: 354px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    position: relative;
+    top: 93px;
+    left: 124px;
+    padding: 20px;
+}
+.subcontainer1{
+    background: #FFFFFF;
+    padding: 8px;
+ }
+.subcontimg{
+    background: transparent no-repeat;
+} 
+.label , .dropdown,option{
+    background: transparent ;
+    font-size: 25px;
+     color: #3D087BDE;
+}
+.dropdown,option{
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 281px;
+height: 45px;
+margin:10px;
+}
+.subcontainer1::before{
+    position: absolute;
+    content: "";
+    border-left: 2px solid rgb(128, 128, 128,0.45);
+    height: 42px;
+    top: 4.5rem;
+    left: 3rem;
+  }
+  .image {
+    margin-top: 15px;
+    
+}
+#changeimg{
+    width:536;
+    height:341;
+}
+
+button:hover span{
+    display: none;
+}
+
+button:hover:before {
+    content: "Party Time";
+}
+
+@media (max-width: 1184px) {
+  body{
+      display: flex;
+      flex-direction: column;
+      width:80vw;
+      font-size: medium;
+  }
+.subcontainer3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left: 7%;
+    width:536px;
+} 
+.logo{
+    top: 70px;
+    left:21px;
+    position:relative;
+    width:50%;
+    height:max-content;  
+  } 
+  .watch{
+      position:absolute;
+      left: -723px;
+      top: 114px;
+  } 
+.container1{
+position :relative;
+position: relative;
+    top: 274px;
+    left: 21px;
+}
+.subcontainer2{
+    display:flex;
+    flex-direction:column;
+    margin-top:363px;
+    margin-left:21px;
+}
+.gmmsg{
+position:relative;
+top: 347px;
+left: 16px;
+padding-left:15px;
+}
+.alarm,.timing{
+    width:563px;
+}
+.timing{
+    margin-top:10px;
+    text-align: center;
+}
+}
